@@ -1,0 +1,39 @@
+
+body { font-family: "Mission-Script", serif }
+
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+/* ------FONTS------- */
+@font-face {
+    font-family: "Homestead-Display";
+    src: url("../../assets/fonts/Homestead-Display.ttf");
+}
+@font-face {
+    font-family: "Homestead-Inline";
+    src: url("../../assets/fonts/Homestead-Inline.ttf");
+}
+@font-face {
+    font-family: "Homestead-One";
+    src: url("../../assets/fonts/Homestead-One.ttf");
+}
+@font-face {
+    font-family: "Homestead-Two";
+    src: url("../../assets/fonts/Homestead-Two.ttf");
+}
+@font-face {
+    font-family: "Homestead-Three";
+    src: url("../../assets/fonts/Homestead-Three.ttf");
+}
+@font-face {
+    font-family: "Homestead-Regular";
+    src: url("../../assets/fonts/Homestead-Regular.ttf");
+}
+@font-face {
+    font-family: "Mission-Script";
+    src: url("../../assets/fonts/Mission-Script.otf");
+}

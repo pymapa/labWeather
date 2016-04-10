@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aurasoudut</title>
+
+
+	<script src="bower_components/angular/angular.min.js"></script>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+
+</head>
+<body>
+<div ng-app="aurasoudut" ng-controller="mainCtrl">
+	<div ng-include="'components/nav/nav.html'"></div>
+	<div ng-include="'components/header/header.html'"></div>
+
+	<div ng-include="'components/footer/footer.html'"></div>
+</div>
+
+
+
+	<script src="app.js"></script>
+	<script src="mainCtrl.js"></script>
+	<script src="routes.js"></script>
+</body>
+</html>
