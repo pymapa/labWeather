@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Aurasoudut</title>
+	<title>Forecast</title>
 
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<script src="bower_components/angular/angular.min.js"></script>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -14,8 +15,9 @@
 </head>
 <body>
 <div ng-app="aurasoudut" ng-controller="mainCtrl">
-	<div ng-include="'components/nav/nav.html'"></div>
 	<div ng-include="'components/header/header.html'"></div>
+
+	<div ng-include="'components/home/home.html'"></div>
 
 	<div ng-include="'components/footer/footer.html'"></div>
 </div>
@@ -25,5 +27,6 @@
 	<script src="app.js"></script>
 	<script src="mainCtrl.js"></script>
 	<script src="routes.js"></script>
+	<script src="httpservice.js"></script>
 </body>
 </html>

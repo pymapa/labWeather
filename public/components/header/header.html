@@ -1,7 +1,13 @@
-<div class="container-fluid">
-	<div class="row no-gutter">
-		<div class="col-sm-12"> 
-			<img src="assets/images/as_banneri_2015.jpg" width="100%">
+<div class="container-fluid dark-primary-color header">
+	<div class="row">
+		<div class="col-xs-12"> 
+			<h1 align="center">{{headertext}}</h1>
+		</div>
+		<div class="col-xs-6">
+			<input class="form-control" ng-model="city.name" type="text" placeholder="City">
+		</div>
+		<div class="col-xs-6">
+			<input class="form-control" type="submit" ng-click="setZipcode(city.name)" name="zipcode" value="Search">
 		</div>
 	</div>
 </div>
