@@ -19,7 +19,7 @@
 				<tr ng-repeat="day in forecast.list">
 					<td>{{day.dt_txt}}</td>
 					<td>{{day.main.temp}}&deg;</td>
-					<td>{{day.weather[0].main}}</td>
+					<td>{{day.weather[0].description}}</td>
 				</tr>
 			</tbody>
 		</table>
