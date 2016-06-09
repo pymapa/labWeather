@@ -15,11 +15,15 @@ hr {
 
 .header {
     align: center;
-    height:20vh; 
+    min-height:20vh; 
 }
 .header h1 {
     margin-top: 1em;
     color: #fff;  
+}
+
+.header h4 {
+    color: #fff;
 }
 
 .content {
@@ -38,7 +42,7 @@ hr {
 }
 
 .footer {
-    height: 10vh;
+    min-height: 10vh;
 }
 
 .form-control {

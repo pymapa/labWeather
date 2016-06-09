@@ -1,10 +1,9 @@
 <div class="container-fluid dark-primary-color header">
-	<div class="row" style="margin-top:1em;">
-		<div class="col-xs-6">
-			<input class="form-control" ng-model="city.name" type="text" placeholder="City">
-		</div>
-		<div class="col-xs-6">
-			<input class="form-control" type="submit" ng-click="setZipcode(city.name)" name="zipcode" value="Search">
+	<div class="row">
+		<div ng-if="weather" class="col-xs-12">
+			<h1>Weather in {{weather.name}}</h1>
+			<h4>Current: {{ weather.weather[0].description }} | {{ weather.main.temp }}&deg;, </h4>
+			<h4>Windspeed: {{weather.wind.speed}}m/s</h4>
 		</div>
 	</div>
 </div>
